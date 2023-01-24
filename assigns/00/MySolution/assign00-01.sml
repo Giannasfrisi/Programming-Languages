@@ -1,1 +1,6 @@
-test line for number 1 of assignment 00
+(*
+Assign00-01: 10 points
+Please find the first integer N such that the
+evaluation of fact(N) in SML/NJ yields an Overflow
+exception.
+*)
