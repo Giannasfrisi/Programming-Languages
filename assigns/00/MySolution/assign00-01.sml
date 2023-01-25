@@ -8,9 +8,10 @@ exception.
 fun fact(x: int): int =
 if x > 0 then x * fact(x-1) else 1
 
-fun fact(N)
-    if 
-    * catches error*
+fun fact2(N: int): int = 
+    if fact(N) raise error
         return N
     else
-        fact(N+1)
+        fact2(N+1)
+
+val N = fact2(0)
