@@ -8,7 +8,7 @@ fun isPrime(n0: int): bool
 fun isPrime(n0: int): bool = 
    val = n0 
    while val <> 1 do 
-    val := val - 1
+    val = val - 1
     if n0 mod val = 0 then
       return false
 
