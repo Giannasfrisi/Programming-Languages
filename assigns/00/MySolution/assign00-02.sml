@@ -5,12 +5,13 @@ given natural number is a prime:
 fun isPrime(n0: int): bool
 *)
 
-val = int
-while val != 0
-  val --
-  if int%val == 0
-    return false
+fun isPrime(n0: int): bool = 
+   val = n0 
+   while val <> 0 do 
+    val := val - 1
+    if n0 mod val = 0 then
+      return false
 
-return true 
-
+done
+return true
 
