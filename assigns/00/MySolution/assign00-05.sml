@@ -7,11 +7,10 @@ fun stringrev(cs: string): string
 
 fun stringrev(cs: string): string
     val strlen = cs.size 
-    String string2 = " "
-    increment = strlen
+    String string2 = ""
 
-    while increment <> 0 do 
-    
-    val := val - 1
-    if n0 mod val = 0 then
-      return false
+    while strlen <> 0 do 
+      strlen --
+      string2 = string2 + cs[strlen]
+
+  return string2
