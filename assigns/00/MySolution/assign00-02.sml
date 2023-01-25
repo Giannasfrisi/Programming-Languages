@@ -5,13 +5,15 @@ given natural number is a prime:
 fun isPrime(n0: int): bool
 *)
 
+
 fun isPrime(n0: int): bool = 
-   val = n0 
-   while val <> 1 do 
-    val = val - 1
-    if n0 mod val = 0 then
+   val n = n0 
+   while n <> 1 do 
+    n = n - 1
+    if n0 mod n = 0 then
       return false
 
 done
 return true
+
 
